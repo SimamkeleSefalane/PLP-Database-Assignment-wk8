@@ -65,3 +65,4 @@ CREATE TABLE Bill (
     payment_status ENUM('Pending', 'Paid') DEFAULT 'Pending',
     FOREIGN KEY (appointment_id) REFERENCES Appointment(appointment_id)
 );
+ 
